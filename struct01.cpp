@@ -22,9 +22,11 @@ struct Student{                 // Struct name: Student
 };
 main (){
     Student s1;
+    cout << "==== Before ====" << endl;
     cout << "id = " << s1.id <<", gpa = " << s1.gpa << ", age = " << s1.age << endl; // Test constructor function
     s1.Birth(2541);              // call the function Birth
     strcpy(s1.id, "603110");     // strcpy // include <string.h>
     s1.gpa = 3.50;               // set gpa
+    cout << endl << "==== After ====" << endl;
     cout << "id = " << s1.id <<", gpa = " << s1.gpa << ", age = " << s1.age << endl; //  After set
 }
