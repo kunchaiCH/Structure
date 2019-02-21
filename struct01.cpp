@@ -8,7 +8,7 @@ struct Student{
     int age;
     char name[30];
 
-    Student(){
+    Student(){              // constructor function
         id[0] = '\0';
         gpa = -99;
         age = -99;
@@ -17,5 +17,5 @@ struct Student{
 };
 main (){
     Student s1;
-    cout << "id =" << s1.id <<", gpa" << s1.gpa << endl;
+    cout << "id =" << s1.id <<", gpa" << s1.gpa << endl; // Test constructor function
 }
