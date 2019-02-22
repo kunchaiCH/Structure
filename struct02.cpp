@@ -22,9 +22,9 @@ struct Student{
     }
 };
 
-struct Room{
-    char no[4];
-    Student s[4];
+struct Room{        // struct Room
+    char no[4];     // have room 4
+    Student s[4];   // have Student 4
 };
 
 struct Level {
