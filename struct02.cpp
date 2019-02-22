@@ -28,7 +28,7 @@ struct Room{        // struct Room
 };
 
 struct Level {
-    char levelNo;
+    char levelNo;    // level
     Room room[10];
 };
 
